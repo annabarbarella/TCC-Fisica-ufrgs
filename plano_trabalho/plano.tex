@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{scalefnt}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[margin=1.2in]{geometry}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\title{Projeto de Trabalho de Conclusão de Curso em Física Bacharel em Astrofísica}
+
+\author{Universidade Federal do Rio Grande do Sul - UFRGS, Instituto de Física - IF}
+\scalefont{1.0}
+\begin{document}
+\date{}
+\maketitle
+\begin{center}
+\textbf{ Título do trabalho : Aplicação de métodos estatísticos para detecção e caracterização de populações estelares} \\
+\textbf{Aluna:} Anna Bárbara de Andrade Queiroz \\
+\textbf{Orientador:} Basílio Xavier Santiago \\
+\textbf{Colaboradores:} Elmer Luque, Eduardo Balbinot, DES-Brasil
+\end{center}
+
+\section{Introdução}
+
+Apresentamos neste documento a descrição do plano para o Trabalho de Conclusão de Curso (TCC) da aluna  Anna Bárbara Queiroz. A pesquisa a ser apresentada é centrada na detecção e também caracterização de substruturas localizadas no Halo Galáctico. \\
+Essas subestruturas são grupos de estrelas que compartilham um vínculo de formação, como aglomerados globulares, galáxias anãs e correntes estelares, tais sistemas também entram dentro do conceito de população estelar. \\
+ A detecção e caracterização dessas subestruturas propulsiona diversas outras pesquisas em astrofísica como uma melhor descrição e modelagem do componente do halo Galáctico, construção do histórico de acreção de massa da Galáxia, modelamento do potencial gravitacional da Via Láctea e também estudo de cenários de formação estelar. \\
+Para a detecção dessas estruturas utilizamos a técnica chamada de Matched Filter que consiste de uma comparação estatística (variância) entre um modelo de população estelar simples (SSP) simulada e uma amostra de estrelas. A caracterização é feita através do ajuste de isócronas (modelos de evolução estelar),  e ajuste de perfis de densidade. \\
+Este trabalho será baseado nos dados do projeto Dark Energy Survey
+(DES, http://www.darkenergysurvey.org/) e do Sloan Digital Sky Survey III (SDSS-III, York at al, 2000;APJ;120-1587), projetos com o qual a aluna em questão esteve bastante envolvida durante a sua bolsa de iniciação científica. \\
+Também aplicaremos um método para o cálculo de distâncias de estrelas. Usando uma estatística Bayesiana, porém agora combinando espectrometria e fotometria. As distâncias das estrelas são fundamentais no estudo de populações estelares e sua variação através da Galáxia. \\
+Descrevemos na seção objetivos, os principais pontos a serem alcançados com a pesquisa, na seção metodologia sintetizamos o modo de execução do trabalho e as ferramentas que serão utilizadas e na seção cronograma organizamos as principais tarefas cronologicamente.
+
+\section{Objetivos}
+
+Os objetivos principais do trabalho são:
+
+1) O manuseio de ferramentas estatísticas para detecção de populações estelares que se encontram no halo da Galáxia.
+
+2) Validação do método, detectando subestruturas já conhecidas, com diferentes parâmetros.
+
+3) Aplicação do método nos dados do DES e do SDSS-III, onde esperamos encontrar novas subestruturas.
+
+4) Caracterização dos objetos, ajuste de diagramas cor-magnitude (CMD), suavização de mapas de densidade e ajuste de perfis.
+
+5) Uso de métodos estatísticos Bayesianos, combinando espectrometria e fotometria para relacionar parâmetros de modelos com observações.
+
+
+\section{Metodologia}
+
+ Para a detecção das populações usaremos o código Sparse (1) que calculando a variância entre um modelo e uma amostra de estrelas, nos dá a probabilidade de cada estrela dentro dessa amostra pertencer ao modelo. Com esta probabilidade construiremos um mapa de densidade a ser analisado. Para a análise dos mapas usaremos o detector de sobredensidades SExtractor(6). \\
+Serão simulados diversos modelos para uma busca sistemática, estas simulações são feitas por um gerador randômico de estrelas que utiliza modelos de evolução estelar  de Padova(2) e uma função de massa inicial (3). \\
+Para a parte de caracterização, os candidatos a população serão analisados visualmente, ajustaremos isócronas para associar parâmetros como idade metalicidade e distância. Além disso analisaremos os mapas de densidade também visualmente e quando necessário faremos um ajuste do  perfil de densidade. \\
+Para relacionar parâmetros como distâncias de estrelas, usando espectrometria e fotometria, seguiremos a ideia descrita em Santiago et al (2015) (5).
+
+\section{Cronograma}
+
+Manho - Junho (2015) : Simulação de modelos e adaptação com o código Sparse, fazer melhorias e scripts para uma busca sistemática.\\
+Junho - Julho (2015) : Validar o método em populações estelares já conhecidas, usando dados do SDSS-III. \\
+Julho - Agosto (2015) : Executar o código para amostras do DES, dados novos a serem liberados e também antigos. Executar também para amostras estelares do SDSS-III onde podem ser detectados novos objetos.\\
+Agosto - Outubro (2015) : Analisar as subestruturas desconhecidas, caracterizá-las usando diagramas cor magnitude \\
+Outubro - Novembro (2015) : Preparar código que usa estatística Bayesiana combinando dados espectro-fotométricos para estimar parâmetros como distância e avermelhamento para estrelas. Análise de resultados
+
+\section{Referências Bibliográficas}
+(1) Balbinot et al (2011, MNRAS,416,393B) \\
+(2) Bertelli, G.; Girardi, L.; Nasi, E.; Marigo, P.; Castelli, F. (2007,ASPC,.374,41B) \\
+(3) Kroupa, Pavel (2001,MNRAS,322,231K) \\
+(4) The DES colaboration et al (2015, arXiv15030254T) \\
+(5) Santiago et al (2015, arXiv150105500S) \\
+(6) Bertin, E.; Arnouts, S. (2010,ASCL,soft10064B) \\
+    
+\section{Assinaturas}
+
+Basílio Santiago:\rule{5cm}{.1mm}  Anna Queiroz:\rule{5cm}{.1mm} 
+
+\end{document}
