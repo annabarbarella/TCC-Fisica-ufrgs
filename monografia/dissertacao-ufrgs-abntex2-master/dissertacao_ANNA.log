@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.7.30)  20 OCT 2015 14:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.7.30)  20 OCT 2015 14:43
 entering extended mode
  %&-line parsing enabled.
-**modelo-dissertacao-ufrgs.tex
-(./modelo-dissertacao-ufrgs.tex
+**dissertacao_ANNA.tex
+(./dissertacao_ANNA.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, french, basque, portuguese, loaded.
@@ -933,13 +933,13 @@ LaTeX Info: Redefining \cite on input line 618.
 )
 Package color Info: Redefining color blue on input line 127.
 Package hyperref Info: Option `colorlinks' set `true' on input line 144.
-\modelo-dissertacao-ufrgs@idxfile=\write4
-\openout4 = `modelo-dissertacao-ufrgs.idx'.
+\dissertacao_ANNA@idxfile=\write4
+\openout4 = `dissertacao_ANNA.idx'.
 
 
-Writing index file modelo-dissertacao-ufrgs.idx 
-(./modelo-dissertacao-ufrgs.aux (./abntex2-modelo-include-comandos.aux))
-\openout1 = `modelo-dissertacao-ufrgs.aux'.
+Writing index file dissertacao_ANNA.idx 
+(./dissertacao_ANNA.aux (./abntex2-modelo-include-comandos.aux))
+\openout1 = `dissertacao_ANNA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
 LaTeX Font Info:    ... okay on input line 167.
@@ -1080,107 +1080,102 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [2
 
 ]
-
-LaTeX Warning: Citation `NBR14724:2011' on page 3 undefined on input line 245.
-
-[3
-
-]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 295.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 295.
- [4
+ [3
 
+] [4
 
 ] [5
 
+
 ] [6
-
-
-] [7
 
 ]
 
-LaTeX Warning: Citation `NBR6028:2003' on page 8 undefined on input line 376.
+LaTeX Warning: Citation `NBR6028:2003' on page 7 undefined on input line 373.
 
-[8
+[7
+
+] [8
 
 ] [9
 
 ] [10
 
-] [11
+] (./dissertacao_ANNA.lof) [11
 
-] (./modelo-dissertacao-ufrgs.lof) [12
+] (./dissertacao_ANNA.lot)
+[12
 
-]
-(./modelo-dissertacao-ufrgs.lot) [13
+] [13
+
 
 ] [14
 
 
-] [15
-
-
-] (./modelo-dissertacao-ufrgs.toc
-Overfull \hbox (49.62589pt too wide) in paragraph at lines 20--20
+] (./dissertacao_ANNA.toc
+Overfull \hbox (48.74464pt too wide) in paragraph at lines 10--10
  [][] [] []  
  []
 
 
-Overfull \hbox (222.37282pt too wide) in paragraph at lines 22--22
+Overfull \hbox (13.00209pt too wide) in paragraph at lines 11--11
  [][] [] []  
  []
 
 
-Overfull \hbox (748.94202pt too wide) in paragraph at lines 38--38
+Overfull \hbox (395.97679pt too wide) in paragraph at lines 18--18
  [][] [] []  
  []
 
 
-Overfull \hbox (535.2026pt too wide) in paragraph at lines 51--51
+Overfull \hbox (248.35963pt too wide) in paragraph at lines 23--23
  [][] [] []  
  []
 
-) [16
+) [15
 
 ]
 
-LaTeX Warning: Citation `abntex2classe' on page 17 undefined on input line 486.
+LaTeX Warning: Citation `abntex2classe' on page 16 undefined on input line 483.
 
 
 
-LaTeX Warning: Citation `abntex2-wiki-como-customizar' on page 17 undefined on 
-input line 501.
+LaTeX Warning: Citation `abntex2-wiki-como-customizar' on page 16 undefined on 
+input line 498.
 
 
-LaTeX Warning: Citation `abntex2classe' on page 17 undefined on input line 504.
+LaTeX Warning: Citation `abntex2classe' on page 16 undefined on input line 501.
 
 
 
-LaTeX Warning: Citation `abntex2cite' on page 17 undefined on input line 504.
+LaTeX Warning: Citation `abntex2cite' on page 16 undefined on input line 501.
 
 
-LaTeX Warning: Citation `abntex2cite-alf' on page 17 undefined on input line 50
-4.
+LaTeX Warning: Citation `abntex2cite-alf' on page 16 undefined on input line 50
+1.
 
 
-LaTeX Warning: Citation `memoir' on page 17 undefined on input line 505.
+LaTeX Warning: Citation `memoir' on page 16 undefined on input line 502.
 
-[17
+[16
 
 
-] [18
+] [17
 
 ]
 \openout2 = `abntex2-modelo-include-comandos.aux'.
 
 
 No file abntex2-modelo-include-comandos.tex.
-[19
+[18
 
 
+
+] [19
 
 ] [20
 
@@ -1188,56 +1183,54 @@ No file abntex2-modelo-include-comandos.tex.
 
 ] [22
 
-] [23
-
 ]
-No file modelo-dissertacao-ufrgs.bbl.
-[24
+No file dissertacao_ANNA.bbl.
+[23
+
+] [24
+
 
 ] [25
-
 
 ] [26
 
 ] [27
 
-] [28
 
+] [28
 
 ] [29
 
-] [30
-
 ]
-No file modelo-dissertacao-ufrgs.ind.
+No file dissertacao_ANNA.ind.
 \BKM@file=\write5
-\openout5 = `modelo-dissertacao-ufrgs.out.ps'.
+\openout5 = `dissertacao_ANNA.out.ps'.
 
-AED: lastpage setting LastPage [31
+AED: lastpage setting LastPage [30
 
 ]
 \tf@lof=\write6
-\openout6 = `modelo-dissertacao-ufrgs.lof'.
+\openout6 = `dissertacao_ANNA.lof'.
 
 \tf@lot=\write7
-\openout7 = `modelo-dissertacao-ufrgs.lot'.
+\openout7 = `dissertacao_ANNA.lot'.
 
 \tf@toc=\write8
-\openout8 = `modelo-dissertacao-ufrgs.toc'.
+\openout8 = `dissertacao_ANNA.toc'.
 
- (./modelo-dissertacao-ufrgs.aux
+ (./dissertacao_ANNA.aux
 (./abntex2-modelo-include-comandos.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11791 strings out of 495015
- 171712 string characters out of 1180730
- 410805 words of memory out of 3000000
- 14759 multiletter control sequences out of 15000+50000
- 90310 words of font info for 61 fonts, out of 3000000 for 9000
+ 11779 strings out of 495015
+ 171381 string characters out of 1180730
+ 409341 words of memory out of 3000000
+ 14748 multiletter control sequences out of 15000+50000
+ 87315 words of font info for 60 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 56i,11n,58p,383b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,58p,375b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on modelo-dissertacao-ufrgs.dvi (32 pages, 72688 bytes).
+Output written on dissertacao_ANNA.dvi (31 pages, 71720 bytes).
