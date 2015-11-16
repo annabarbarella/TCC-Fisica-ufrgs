@@ -1,0 +1,59 @@
+AGRADECIMENTOS
+
+A todos os professores COM que tive contato ao longo do curso, por todos os ensinamentos e conselhos.
+
+Sem querer influenciar os seus agradecimentos, gostaria apenas de mencionar que esse talvez seja um lugar onde voce pode enfatizar a contribuiçao substancial do Elmer para partes deste trabalho, em especial na hora de aplicar o SparSEx ao DES. Neste caso, o agradecimento ao Elmer poderia vir numa linha em separado, dando conta da contribuiçao que ele deu.
+Outra alternativa eh mencionar a contribuiçao do Elmer mais adiante, na seçao apropriada.
+
+--> Okay, coloquei um agradecimento em separado para o Elmer, realmente estava faltando.  
+
+
+ABSTRACT
+
+... a wide range of astrophysicAL aspects and...
+
+--> okay
+
+INTRODUÇAO
+
+"Chamamos de satélites da Via Láctea (VL) galáxias anãs e aglomerados
+globulares gravitacionalmente ligados a VL." Essa definiçao ainda estah falha. Imagine um aglomerado globular do bojo da MW. Ele estah quase situado no centro da Galaxia. Entao ele eh fortemente ligado gravitacionalmente aa MW. Pela sua definiçao, ele eh um satelite da MW. Faz sentido? O que o diferencia, do ponto de vista da distancia ao centro, da orbita, da aceleraçao gravitacional sofrida, de uma estrela de campo do bojo ou do disco interno? A meu ver nada. Sendo assim, estrelas de campo sao satelites tambem?! Que caracteristica adicional devemos entao atribuir para dizer que algo eh um satelite?
+--> Okay eu coloquei que os satélites da VL, devem estar situados no halo da galáxia. Devo dar mais detalhes sobre isso?
+
+"... permite estender as relações de escala para esses parâmetros." 
+Para o dia da sua apres, esteja preparada para dar um ou mais exemplos de relaçao de escala que pode ser estendida no sentido de baixo L, \mu ou r_e.
+--> Okay,
+
+
+"... e cerca de 150 aglomerados globulares (Harris, 1996)"
+Novamente: faz sentido dizer que todos os GCs sao satelites? Acho que nao.
+--> Estou com problemas nessa parte, não achei uma referência como o número de algomerados pertencentes ao Halo. Eu fiz um corte em distância na lista do Harris de > 9 kpc do centro galáctico. Fica cerca de 50 aglomerados.
+
+"Diversos outros aglomerados estelares foram descobertos durante os últimos
+anos, porém a sua classificação como galáxia anã ou aglomerado globular ainda não é clara (refs)". 
+Favor certificar-se de que os objetos que constam das refs dadas nao estao incluidos na sua estatistisica (36 + 57). De outra forma, a afirmaçao fica confusa.
+--> Perfeito, tinha uma referẽncia errada realmente. 
+
+"Desses 17 candidatos, 5 estão em local ambíguo no espaço luminosidade X raio físico para distinção entre galáxia anã e aglomerado globular."
+Cuidado pra nao se contradizer, pois acho que no final do trabalho vc faz uma afirmativa diferente.
+--> No final do trabalho eu digo que a "maioria" dos canditados é  consitente com galáxias anãs, e que é necessário um follow up espectroscópico. Isto está contraditório?
+
+"Até o momento 3 dos 17 candidatos foram confirmados
+como galáxias anãs através de observações espectroscópicas que mostram suas assinaturas cinemáticas e químicas são consistentes com os de uma galáxia."
+Colocar referencias aqui. 
+--> Implementado!
+
+"... as estrelas são jogadas para fora de SEUS SISTEMAS DO ORIGEM, formando correntes estelares NO INTERIOR DA VL." --> okay
+
+potêncial --> potencial (sem acento) --> okay
+
+"Eh bastante provável que alguns dos PROGENITORES já tenham sidos totalmente consumidos pela VL..." --> okay
+
+"O surto dessas descobertas também é acompanhado por aglomerados globulares,
+detectados na região do halo galáctico. Estes são sistemas com luminosidade baixa (−3.0≤Mv≤0) e pequenos raios a meia luz (≤ 10pc)..."
+Anna, novamente vc corre riscos de ser criticada pela terminologia adotada. A grande maioria dos astronomos, eu inclusive, vai discordar totalmente da definiçao que vc dah a aglomerados globulares aqui. 
+
+No minimo, coloque: "O surto dessas descobertas também é acompanhado por aglomerados globulares DE BEM BAIXA LUMINOSIDADE, detectados na região do halo galáctico. Estes são sistemas com luminosidade baixa (−3.0≤Mv≤0) e pequenos raios a meia luz (≤ 10pc)..."
+--> Coloquei:
+O surto dessas descobertas também é acompanhado pela descoberda de sistemas com bem baixa luminosidade ($-3.0 \le Mv \le 0$) e pequenos raios a meia luz ($\le$ 10pc), sendo mais consistentes com aglomerados globulares ...
+Exatamente como está escrito no artigo de DES 1
